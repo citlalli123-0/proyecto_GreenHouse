@@ -6,7 +6,7 @@
 body{  
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100vh; /*esto lo puse para poner el footer hasta abajo*/
 }
 main{
     margin: 0 auto;
@@ -22,7 +22,7 @@ header{
 
 .header__barra{
     font-family: 'Fjalla One', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 /* Style the topnav links */
@@ -51,11 +51,12 @@ header{
     height: 70px;
     margin-right: 20px;
 }
+
 .titulo{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Yanone Kaffeesatz', sans-serif;font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     color: rgb(39, 73, 38);
     font-size: 50px;
     
@@ -74,11 +75,12 @@ header{
 
 /* CARDS */
 
-.cards{
+section.cards{
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    justify-content: flex-end;
+    text-align: center;
+    font-family: 'Caveat', cursive;
 }
 
 .box{
@@ -87,13 +89,15 @@ header{
     gap: 1rem;
     /*flex: 1 1 clamp(250px, 100%, 400px)*/
 }
+.box__title{
+    font-family: 'Fjalla One', sans-serif
 
-
+}
 
 /*FOOTER*/
 .footer{
     background-color: rgb(151, 211, 146);
-    height: 200px;
+    height: 100px;
     margin-top: auto;
 }
 .footer__texto{
