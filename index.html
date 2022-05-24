@@ -7,20 +7,10 @@
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./CSS/estilos.css">
     <title>Inicio</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Koulen&family=Oleo+Script+Swash+Caps&family=Yanone+Kaffeesatz:wght@300&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Koulen&family=Oleo+Script+Swash+Caps&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Fjalla+One&family=Koulen&family=Oleo+Script+Swash+Caps&family=Yanone+Kaffeesatz:wght@300&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Fjalla+One&family=Koulen&family=Oleo+Script+Swash+Caps&family=Yanone+Kaffeesatz:wght@300&display=swap');
-     </style>
 </head>
 <body>
     <!--header-->
     <header class = "header">
-        <!--<article class = "header__titulo">
-            <h1>GREEN HOUSE</h1>
-        </article>-->
-
         <a href = "./index.html" class = "header__logo">
             <img src="./images/logo.png" alt="">
         </a>
@@ -33,60 +23,108 @@
                <a href="./pages/registro.html">REGISTRO</a>
            </nav>
         </div>
-    </header>
-    <article class = "titulo">
-        <h1>GREEN HOUSE</h1>
-    </article>
-    <section class = "parrafo">
-        <article>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet hic quam similique error qui obcaecati iure fuga, nam recusandae delectus facere a commodi architecto omnis? Culpa exercitationem quibusdam facilis magnam.
-            </p>
-        </article>
-    </section>
+    </header>\
 
 
-    <!--main-->
 
+    <!-- MAIN -->
+    <main>
+        <section class = "boxPrincipal">
+            <section class = "image">
+                <picture>
+                    <img src="./images/imgFirst.png" alt="" height="50%" width="80%" >
+                </picture>
+            </section>
+            <article class = "title">
+                <h1>GREEN HOUSE</h1>
+            </article>
+            <article class = "paragraph">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet hic quam similique error qui obcaecati iure fuga, nam recusandae delectus facere a commodi architecto omnis? Culpa exercitationem quibusdam facilis magnam.
+                </p>
+            </article>
+        </section>
+        
+        <section class = "cards">
+            <article class = "box">
+                <picture>
+                    <img src="./images/invernadero1.png" alt="inverndero">
+                </picture>
+                <div class="box__info">
+                    <h2 class = "box__title">Invernadero</h2>
+                    <p clasc  = "box__text">Un lugar cerrado, estático y accesible a pie, dotado habitualmente de una cubierta exterior translúcida de vidrio o de plástico, dentro del cual se puede obtener un microclima mediante el control de la temperatura.</p>
+                </div>
+            </article>
+            <article class = "box">
+                <picture>
+                    <img src="./images/jardin1.png" alt="jardin">
+                </picture>
+                <div class="box__info">
+                    <h2 class = "box__title">Jardin</h2>
+                    <p clasc  = "box__text"> Terreno donde se cultivan plantas con fines decorativos y ornamentales. Se trata de un huerto de flores que busca embellecer un determinado lugar.</p>
+                </div>
+            </article>
+            <article class = "box">
+                <picture>
+                    <img src="./images/plants1.png" alt="plantas">
+                </picture>
+                <div class="box__info">
+                    <h2 class = "box__title">Plantas</h2>
+                    <p clasc  = "box__text">Las plantas son seres vivos y autosuficientes. Estos seres vivos pertenecen al mundo de los vegetales, pueden vivir en la tierra o en el agua.</p>
+                </div>
+            </article>
+        </section>
 
-    <section class = "cards">
-        <article class = "box">
-            <picture>
-                <img src="./images/jardin.jpg" alt="jardin">
-            </picture>
-            <div class="box__info">
-                <h2 class = "box__title">JARDIN</h2>
-                <p clasc  = "box__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, dolor aperiam quas cum fugit omnis repudiandae, nemo quos veritatis, sequi commodi accusantium explicabo dignissimos magni impedit. Labore quam dolorum voluptates.</p>
+        <section class = "target">
+            <div class = "info" >
+                <picture class = "info__img"">
+                    <img src="./images/img1.png" alt="">
+                </picture>
+                <article class = "info__box" >
+                    <h2 class = "info__title">¿Que es un invernadero?</h2>
+                    <p class = "info__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent </p>
+                </article>
             </div>
-        </article>
-        <article class = "box">
-            <picture>
-                <img src="./images/plantas.jpg" alt="jardin">
-            </picture>
-            <div class="box__info">
-                <h2 class = "box__title">PLANTAS</h2>
-                <p clasc  = "box__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, dolor aperiam quas cum fugit omnis repudiandae, nemo quos veritatis, sequi commodi accusantium explicabo dignissimos magni impedit. Labore quam dolorum voluptates.</p>
+            <div class = "info--middle" >
+                <picture class = "info__img"">
+                    <img src="./images/img2.png" alt="">
+                </picture>
+                <article class = "info__box" >
+                    <h2 class = "info__title">¿Que es un jardin?</h2>
+                    <p class = "info__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent </p>
+                </article>
             </div>
-        </article>
-        <article class = "box">
-            <picture>
-                <img src="./images/invernadero.jpg" alt="jardin">
-            </picture>
-            <div class="box__info">
-                <h2 class = "box__title">JARDIN</h2>
-                <p clasc  = "box__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, dolor aperiam quas cum fugit omnis repudiandae, nemo quos veritatis, sequi commodi accusantium explicabo dignissimos magni impedit. Labore quam dolorum voluptates.</p>
+            <div class = "info" >
+                <picture class = "info__img"">
+                    <img src="./images/img3.png" alt="">
+                </picture>
+                <article class = "info__box" >
+                    <h2 class = "info__title">Plantas de interior</h2>
+                    <p class = "info__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent </p>
+                </article>
             </div>
-        </article>
-    </section>
-
+        </section>
+    </main>
+    <!-- FIN MAIN -->
 
     <!--footer-->
     <footer class = "footer">
-         <section>
-             <article class = "footer__texto">
-                 <p>YO SOY EL FOOTER</p>
-             </article>
-         </section>
+        <div class = "footer__text">
+            <p>Greenhouse puede ayudarlo a diseñar un mejor espacio.</p>
+        </div>
+        <div class = "footer__redes">
+            <h2 class = "footer__subt">Siguenos en nuestras redes sociales</h2>
+            <div class = "footer__iconos">
+                <a href=""><span class="iconify" data-icon="akar-icons:facebook-fill" style="color: black;" data-width="32" data-height="32"></span></a>
+                <a href=""><span class="iconify" data-icon="akar-icons:twitter-fill" style="color: black;" data-width="32" data-height="32"></span></a>
+                <a href=""><span class="iconify" data-icon="akar-icons:instagram-fill" style="color: black;" data-width="32" data-height="32"></span></a>
+            </div>
+
+        </div>
+      
     </footer>
+    <!-- FIN FOOTER -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    
 </body>
 </html>
