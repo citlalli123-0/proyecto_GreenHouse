@@ -102,13 +102,16 @@ section.image{
     padding: var(--spaceLarge);
    
 }
+h1, .h1{
+    font-size: var(--textLarge);
+}
 .title{
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: var(--fontTitles);
     color: var(--primary);
-    font-size: var(--textLarge);
+    
 }
 
 .paragraph{
@@ -120,13 +123,15 @@ section.image{
 }
 
 /* CARDS */
+
 .cards  {
    display: flex;
    flex-direction: row;
    gap: 1rem;
    justify-content: center; 
    align-items: center;
-}
+} 
+
 .box__info{
     padding: var(--spaceSmall);
     color: var(--base);
@@ -288,7 +293,16 @@ footer{
     padding: var(--spaceLarge);
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+}
+
+ .ubicacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
